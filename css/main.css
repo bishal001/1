@@ -1,6 +1,7 @@
-/* Body */
-body{}
-
+body{
+  background-color: #d9d7d7;
+  font-family: Arial, sans-serif;
+}
 
 a{
     text-decoration: none !important;
