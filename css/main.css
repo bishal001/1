@@ -1,0 +1,116 @@
+/* Body */
+body{}
+
+
+a{
+    text-decoration: none !important;
+}
+
+/* Hero Section Start */
+.hero_section {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero_section .text {
+    position: absolute;
+    top: 40%;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .hero_section .text h3 {
+    font-size: 40px;
+  }
+
+  .hero_section .text a {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 24px;
+  }
+
+  .hero_section .btn{
+    background-color: rgb(6, 34, 6);
+    pointer-events: none;
+  }
+/* Hero Section End */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* Hero Section Start */
+  .hero_section .text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .hero_section .text a {
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 12px;
+  }
+
+  .hero_section .text h3 {
+    font-size: 16px;
+  }
+
+  /* Hero Section End */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* Hero Section Start */
+    .hero_section .text {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    .hero_section .text a {
+      padding-left: 24px;
+      padding-right: 24px;
+      font-size: 18px;
+    }
+
+    .hero_section .text h3 {
+      font-size: 24px;
+    }
+  
+    /* Hero Section End */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* Hero Section Start */
+    .hero_section .text h3 {
+      font-size: 40px;
+    }
+  
+    /* Hero Section End */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* Hero Section Start */
+  .hero_section .text h3 {
+    font-size: 40px;
+  }
+
+  /* Hero Section End */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+      /* Hero Section Start */
+      .hero_section .text h3 {
+        font-size: 40px;
+      }
+    
+      /* Hero Section End */
+}
