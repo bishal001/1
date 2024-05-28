@@ -41,7 +41,10 @@ a{
 
   .hero_section .btn{
     background-color: rgb(6, 34, 6);
-    pointer-events: none;
+  }
+
+  .hero_section .btn:hover{
+    background-color: rgb(6, 34, 6);
   }
 /* Hero Section End */
 
