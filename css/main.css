@@ -6,6 +6,13 @@ a{
     text-decoration: none !important;
 }
 
+/* Navigation Bar Start */
+.navbar, .offcanvas-header, .offcanvas-body {
+  background-color: #1f3916;
+}
+
+/* Navigation Bar End */
+
 /* Hero Section Start */
 .hero_section {
     position: relative;
