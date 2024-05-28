@@ -88,6 +88,19 @@ a{
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     /* Hero Section Start */
+    .hero_section .text {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  
+    .hero_section .text a {
+      padding-left: 24px;
+      padding-right: 24px;
+      font-size: 24px;
+    }
+
     .hero_section .text h3 {
       font-size: 40px;
     }
@@ -98,6 +111,19 @@ a{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   /* Hero Section Start */
+  .hero_section .text {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .hero_section .text a {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 24px;
+  }
+
   .hero_section .text h3 {
     font-size: 40px;
   }
@@ -108,6 +134,19 @@ a{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
       /* Hero Section Start */
+      .hero_section .text {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    
+      .hero_section .text a {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 24px;
+      }
+
       .hero_section .text h3 {
         font-size: 40px;
       }
