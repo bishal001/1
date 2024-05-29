@@ -1,6 +1,6 @@
-body{
-  background-color: #d9d7d7;
-  font-family: Arial, sans-serif;
+body {
+  background-color: #d9d7d7 !important;
+  font-family: Arial, sans-serif !important;
 }
 
 a{
@@ -48,7 +48,26 @@ a{
   }
 /* Hero Section End */
 
+/* Project Section Start */
+.project .card .card-text {
+  font-size: 16px;
+}
 
+.project button a {
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 24px;
+}
+
+.project .btn{
+  background-color: #7ba968;
+}
+
+.project .btn:hover{
+  background-color: #7ba968;
+}
+
+/* Project Section Start */
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -69,8 +88,14 @@ a{
   .hero_section .text h3 {
     font-size: 16px;
   }
-
   /* Hero Section End */
+
+  /* Project Section Start */
+.project .card .card-text {
+  font-size: 16px;
+}
+ /* Project Section End */
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -92,8 +117,13 @@ a{
     .hero_section .text h3 {
       font-size: 24px;
     }
-  
     /* Hero Section End */
+
+      /* Project Section Start */
+.project .card .card-text {
+  font-size: 12px;
+}
+ /* Project Section End */
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
